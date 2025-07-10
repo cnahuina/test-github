@@ -8,3 +8,5 @@ Actualización urgente: Todos los sistemas operativos
 Este cambio resuelve la HU SCRUM-6-update-readme
 
 Actualizando Readme probando Smart Commit
+
+Probando ahora con ingles smart commit
