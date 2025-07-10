@@ -6,3 +6,5 @@ Contribución realizada mediante un pull request
 Actualización urgente: Todos los sistemas operativos
 
 Este cambio resuelve la HU SCRUM-6-update-readme
+
+Actualizando Readme probando Smart Commit
