@@ -11,7 +11,7 @@ Este repositorio contiene ejercicios y prácticas para el curso de DevOps, inclu
 - [Contribución](#contribución)
 - [Licencia](#licencia)
 
-## 📖 Descripción
+## 📖 Descripción del repositorio
 
 Este repositorio sirve como entorno de práctica para:
 - Configuración de pipelines CI/CD
