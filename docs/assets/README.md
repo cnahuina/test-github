@@ -1,16 +1,19 @@
 # 📸 Recursos Visuales - Instalación Rápida
 
-Este directorio contiene recursos visuales que complementan la documentación de instalación.
+Este directorio contiene recursos visuales que complementan la documentación
+de instalación.
 
 ## 🖼️ Captura de Pantalla del Resultado Esperado
 
 ### Archivo: `captura-instalacion.html`
 
-Este archivo contiene una simulación visual de cómo se ve la aplicación después de una instalación exitosa.
+Este archivo contiene una simulación visual de cómo se ve la aplicación
+después de una instalación exitosa.
 
-#### Cómo visualizar:
+#### Cómo visualizar
 
 1. **Método 1: Abrir directamente en el navegador**
+
    ```bash
    # Desde el directorio raíz del proyecto
    open docs/assets/captura-instalacion.html
@@ -23,6 +26,7 @@ Este archivo contiene una simulación visual de cómo se ve la aplicación despu
    ```
 
 2. **Método 2: Usar un servidor local**
+
    ```bash
    # Navegar al directorio docs
    cd docs/assets
@@ -37,11 +41,12 @@ Este archivo contiene una simulación visual de cómo se ve la aplicación despu
    ```
 
 3. **Método 3: Desde VS Code**
+
    - Instala la extensión "Live Server"
    - Haz clic derecho en el archivo `captura-instalacion.html`
    - Selecciona "Open with Live Server"
 
-#### Lo que verás:
+#### Lo que verás
 
 - **Interfaz principal** del proyecto DevOps
 - **Indicadores de estado** (Activo, Desarrollo, Puerto, Uptime)
@@ -49,7 +54,7 @@ Este archivo contiene una simulación visual de cómo se ve la aplicación despu
 - **Enlaces útiles** para navegación
 - **Timestamp** de inicio de la aplicación
 
-#### Características visuales:
+#### Características visuales
 
 - ✅ Diseño responsive y moderno
 - 🎨 Colores que reflejan el estado exitoso
@@ -59,4 +64,6 @@ Este archivo contiene una simulación visual de cómo se ve la aplicación despu
 
 ---
 
-**Nota:** Este archivo HTML es solo una representación visual para fines de documentación. La interfaz real puede variar según la implementación específica del proyecto. 
+**Nota:** Este archivo HTML es solo una representación visual para fines de
+documentación. La interfaz real puede variar según la implementación
+específica del proyecto. 

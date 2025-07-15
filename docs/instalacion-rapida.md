@@ -1,17 +1,21 @@
 # 🚀 Instalación Rápida
 
-Esta guía te ayudará a configurar y ejecutar el proyecto de práctica DevOps en tu entorno local de manera rápida y sencilla.
+Esta guía te ayudará a configurar y ejecutar el proyecto de práctica DevOps
+en tu entorno local de manera rápida y sencilla.
 
 ## 📋 Prerrequisitos de Software
 
-Antes de comenzar, asegúrate de tener instalado el siguiente software en tu sistema:
+Antes de comenzar, asegúrate de tener instalado el siguiente software en tu
+sistema:
 
-### Requisitos Obligatorios:
+### Requisitos Obligatorios
+
 - **Node.js v18+** - [Descargar desde nodejs.org](https://nodejs.org/)
 - **Git** - [Descargar desde git-scm.com](https://git-scm.com/)
 - **GitHub CLI (opcional)** - [Descargar desde cli.github.com](https://cli.github.com/)
 
-### Verificación de Prerrequisitos:
+### Verificación de Prerrequisitos
+
 ```bash
 # Verificar versión de Node.js
 node --version
@@ -29,6 +33,7 @@ npm --version
 ## 🛠️ Comandos de Instalación
 
 ### 1. Clonar el Repositorio
+
 ```bash
 # Clonar el repositorio
 git clone https://github.com/tu-usuario/test-github.git
@@ -38,6 +43,7 @@ cd test-github
 ```
 
 ### 2. Instalar Dependencias
+
 ```bash
 # Instalar dependencias del proyecto
 npm install
@@ -47,6 +53,7 @@ npm list
 ```
 
 ### 3. Configurar el Entorno
+
 ```bash
 # Crear archivo de configuración local (si es necesario)
 cp .env.example .env
@@ -56,6 +63,7 @@ cp .env.example .env
 ```
 
 ### 4. Ejecutar el Proyecto
+
 ```bash
 # Ejecutar en modo desarrollo
 npm run dev
@@ -71,6 +79,7 @@ npm run lint
 ```
 
 ### 5. Verificar la Instalación
+
 ```bash
 # Verificar que el servidor esté ejecutándose
 curl http://localhost:3000
@@ -81,12 +90,16 @@ curl http://localhost:3000
 
 ## 📸 Resultado Esperado
 
-Después de ejecutar los comandos anteriores, deberías ver una salida similar a la siguiente:
+Después de ejecutar los comandos anteriores, deberías ver una salida similar
+a la siguiente:
 
-> **💡 Captura de Pantalla:** Para ver cómo se ve la interfaz completa, abre el archivo [`assets/captura-instalacion.html`](assets/captura-instalacion.html) en tu navegador.
+> **💡 Captura de Pantalla:** Para ver cómo se ve la interfaz completa,
+> abre el archivo [`assets/captura-instalacion.html`](assets/captura-instalacion.html)
+> en tu navegador.
 
-### En la Terminal:
-```
+### En la Terminal
+
+```text
 $ npm run dev
 > test-github@1.0.0 dev
 > node server.js
@@ -106,10 +119,11 @@ $ npm run dev
 [19:24:30] INFO: ✨ ¡Listo para recibir peticiones!
 ```
 
-### En el Navegador:
+### En el Navegador
+
 Al navegar a `http://localhost:3000`, deberías ver:
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
 │  🎯 Repositorio de Práctica DevOps                          │
@@ -145,6 +159,7 @@ Una vez que tengas el proyecto ejecutándose:
 ## 🔧 Solución de Problemas
 
 ### Error: "node: command not found"
+
 ```bash
 # Instalar Node.js desde https://nodejs.org/
 # O usar un gestor de versiones como nvm:
@@ -154,6 +169,7 @@ nvm use 18
 ```
 
 ### Error: "npm install" falla
+
 ```bash
 # Limpiar caché de npm
 npm cache clean --force
@@ -164,6 +180,7 @@ npm install
 ```
 
 ### Error: Puerto 3000 en uso
+
 ```bash
 # Encontrar el proceso que usa el puerto
 lsof -i :3000
@@ -183,4 +200,5 @@ Si encuentras algún problema durante la instalación:
 
 ---
 
-**¡Felicidades! 🎉** Has completado la instalación rápida del proyecto DevOps. Ahora puedes comenzar a explorar y contribuir al proyecto. 
+**¡Felicidades! 🎉** Has completado la instalación rápida del proyecto DevOps.
+Ahora puedes comenzar a explorar y contribuir al proyecto. 
