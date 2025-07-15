@@ -24,7 +24,19 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      
+      - name: Install markdownlint
+        run: |
+          npm install -g markdownlint-cli
+      - name: Validate Markdown files
+        run: |
+          markdownlint ./**/*.md
+      - name: Create a job summary (Optional)
+        if: failure()
+        run: |
+          echo "## ⚠️ Markdown linting failed" >> $GITHUB_STEP_SUMMARY
+          echo "Please fix the errors listed above." >> $GITHUB_STEP_SUMMARY
+          
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
