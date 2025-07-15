@@ -201,4 +201,4 @@ Si encuentras algún problema durante la instalación:
 ---
 
 **¡Felicidades! 🎉** Has completado la instalación rápida del proyecto DevOps.
-Ahora puedes comenzar a explorar y contribuir al proyecto. 
+Ahora puedes comenzar a explorar y contribuir al proyecto.
